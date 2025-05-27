@@ -22,7 +22,12 @@ body {
 
   justify-content: space-between;
 }
-  
+
+.container {
+  display: flex;
+  justify-content: center;
+
+}
 
 h1 {
   font-family: "Lavishly Yours", cursive;
