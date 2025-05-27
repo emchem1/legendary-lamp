@@ -40,7 +40,14 @@ body {
 }
 
 .containerrsvp {
-  padding: 400px
+  padding: 400px;
+
+}
+
+.containertimeline {
+  display: grid;
+  justify-content: center;
+  padding: 20px;
 
 }
 
