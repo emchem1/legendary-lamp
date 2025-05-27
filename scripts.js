@@ -13,7 +13,7 @@ document.getElementById("rsvpform").addEventListener("submit", function (e) {
   formData.append("food", food);
   formData.append("drink", drink);           
 
-  fetch("https://script.google.com/macros/s/AKfycbz4Whv-E_2_ZT_zEv4UNOPxWDurZ4D2L2Kufl7keg4aVSuiAgS3Q_qMGLgdl45OxkFr/exec ", {
+  fetch("https://script.google.com/macros/s/AKfycbyzuj_ZA22EaDmWFsUJ5K8meFvLBJiKl613kTz6n4nBo7vs8VuYw2tAkomil7BQsG_W/exec", {
     method: "POST",
     body: formData
   })
