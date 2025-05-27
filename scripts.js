@@ -1,10 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("rsvpform").addEventListener("submit", function (e) {
-    e.preventDefault();
+  const form = document.getElementById("rsvpform");
+  const fullnameInput = document.getElementById("fullname");
+  const foodInput = document.getElementById("food");
 
-    const fullname = document.getElementById("fullname").value;
+    if (!form || !fullnameInput || !foodInput) {
+    console.error("Form or required input fields are missing in the HTML.");
+    return;
+    }
+
+    form.addEventListener("submit", function (e) {
+    e.preventDefault();
+      
+    const fullname = fullnameInput.value;
     const rsvp = document.querySelector('input[name="rsvp"]:checked')?.value || "";
-    const food = document.getElementById("food").value;
+    const food = foodInput.value;
     const drink = document.querySelector('input[name="drink"]:checked')?.value || "";
 
     const formData = new FormData();
