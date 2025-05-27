@@ -28,7 +28,7 @@ h1 {
   font-family: "Lavishly Yours", cursive;
   text-align: center;
   font-weight: 1000;
-  font-size: 40px;
+  font-size: 200px;
   font-style: normal;
   colour: white;
 }
@@ -37,7 +37,7 @@ h2 {
   font-family: "Lavishly Yours", cursive;
   text-align: center;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 100px;
   font-style: normal;
   colour: white;
 }
@@ -54,7 +54,7 @@ h3 {
   font-family: "Lavishly Yours", cursive;
   text-align: center;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 75px;
   font-style: normal;
   colour: #fff;
 }
