@@ -26,16 +26,15 @@
     <label for="fname">full name:</label>
     <input type="text" id="fullname" name="fullname">
     <label for="rsvp">rsvp:</label>
-    <input type="radio" id="rsvp" name="rsvp">
-      <option value="yes">yes i would love to be there</option>
-      <option value="no">apologies, i won't be able to make it</option>
-      <option value="maybe">maybe, i'll let you know as soon as i can</option>
+    <input type="radio" name="rsvp" value="yes">yes i would love to be there
+    <input type="radio" name="rsvp" value="no">apologies, i won't be able to make it
+    <input type="radio" name="rsvp" value="maybe">maybe, i'll let you know as soon as i can
+      
     <label for="food">any dietary requirements:</label>
     <input type="text" id="food" name="food">
     <label for="drink">alcoholic beverages:</label>
-      <input type="radio" id="drink" name="drink">
-        <option value="yes">i will be drinking alcohol</option>
-        <option value="no">no i will not be drinking alcohol</option>
+      <input type="radio" name="drink" value="alcohol">i will be drinking alcohol
+      <input type="radio" name="drink" value="noalcohol">no i will not be drinking alcohol
       
     </select>
     <input type="submit", value="submit">
