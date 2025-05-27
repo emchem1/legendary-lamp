@@ -9,6 +9,10 @@ body {
 
 }
 
+map-image {
+  width: 400px
+  height: auto}
+
 h1 {
   font-family: "Lavishly Yours", cursive;
   font-weight: 400;
@@ -25,7 +29,6 @@ space {
 }
 
 
-
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -40,6 +43,4 @@ navigation-bar>.ui.container {
     transition: width .35s ease, padding .35s ease;
 }
 
-image {
-  width: 400px
-  height: auto}
+
