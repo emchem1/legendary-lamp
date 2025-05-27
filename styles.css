@@ -22,6 +22,13 @@ h1 {
   colour: #fff;
 }
 
+h2 {
+  font-family: "Lavishly Yours", cursive;
+  text-align: center;
+  font-weight: 200;
+  font-style: normal;
+  colour: #fff;
+}
 
 space {
     display: inline-block;
