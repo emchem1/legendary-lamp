@@ -1,1 +1,61 @@
+body {
+  background-image: url('./Walking.jpeg'); /* Replace with your image path */
+  background-size: fill; /* This will make the background image cover the entire container */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+  background-position: center top; /* This will center the image in the container */
+  background-attachment: fixed;
+  /* you might need to adjust the width and height to be 100% if you want to have the background taking all the space */
+  width: 100%;
+  height: auto;
 
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic
+  color: #845f85;
+}
+
+space {
+    display: inline-block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    opacity: 0;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    color: #fff;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    color: #fff;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2;
+    font-style: italic;
+    font-weight: 100;
+    color: #fff;
+}
+#navigation-bar>.ui.container {
+    justify-content: normal;
+    align-items: center;
+    transition: width .35s ease, padding .35s ease;
+}
