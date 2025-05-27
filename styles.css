@@ -30,6 +30,10 @@ h1 {
     color: antiquewhite;
 }
 
+image {
+  width: 400px
+  object-fit: cover}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
