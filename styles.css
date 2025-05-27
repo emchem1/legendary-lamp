@@ -45,7 +45,7 @@ h1 {
   font-weight: 1000;
   font-size: 200px;
   font-style: normal;
-  colour: #ffffff;
+  colour: #FAEBD7;
 }
 
 h2 {
@@ -54,7 +54,7 @@ h2 {
   font-weight: 200;
   font-size: 75px;
   font-style: normal;
-  colour: #ffffff;
+  colour: #FAEBD7;
 }
 
 space {
@@ -71,7 +71,7 @@ h3 {
   font-weight: 200;
   font-size: 40px;
   font-style: normal;
-  colour: #ffffff;
+  colour: #FAEBD7;
 }
 
 h4 {
@@ -80,7 +80,7 @@ h4 {
   font-weight: 200;
   font-size: 30px;
   font-style: normal;
-  colour: #ffffff;
+  colour: #FAEBD7;
 }
 
 navigation-bar>.ui.container {
