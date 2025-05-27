@@ -16,7 +16,8 @@ body {
 
 h1 {
   font-family: "Lavishly Yours", cursive;
-  font-weight: 400;
+  text-align: center;
+  font-weight: 1000;
   font-style: normal;
   colour: #fff;
 }
