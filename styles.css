@@ -10,12 +10,13 @@ body {
 }
 
 .image {
-  width: 400px
-  height: auto}
+  width: 400px;
+  height: auto;
+}
 
 .grid {
   display: grid;
-  grid-template-columns: 200px 100px;
+  grid-template-columns: 2000px 1000px;
   column-gap: 20px;
   row-gap: 40px;
 
