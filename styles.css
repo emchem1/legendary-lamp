@@ -7,11 +7,15 @@ body {
   width: 100%;
   height: auto;
 
-
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-style: italic
-  color: #845f85;
 }
+
+h1 {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+  colour: #fff;
+}
+
 
 space {
     display: inline-block;
@@ -21,25 +25,6 @@ space {
 }
 
 
-h1 {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 200;
-    font-style: italic;
-    color: antiquewhite;
-}
-
-image {
-  width: 400px
-  object-fit: cover}
-
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-style: italic;
-    font-weight: 100;
-    color: #fff;
-}
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,14 +34,6 @@ h3 {
     color: #fff;
 }
 
-h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 2;
-    font-style: italic;
-    font-weight: 100;
-    color: #fff;
-}
 #navigation-bar>.ui.container {
     justify-content: normal;
     align-items: center;
