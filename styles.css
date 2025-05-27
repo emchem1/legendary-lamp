@@ -4,7 +4,7 @@ body {
   background-size: fill; /* This will make the background image cover the entire container */
   background-repeat: no-repeat; /* This will prevent the image from repeating */
   background-position: center top; /* This will center the image in the container */
-  background-attachment: absolute;
+  background-attachment: fixed;
   width: 100%;
   height: auto;
 }
@@ -60,6 +60,15 @@ h3 {
   text-align: center;
   font-weight: 200;
   font-size: 75px;
+  font-style: normal;
+  colour: #fff;
+}
+
+h4 {
+  font-family: "Lavishly Yours", cursive;
+  text-align: center;
+  font-weight: 200;
+  font-size: 30px;
   font-style: normal;
   colour: #fff;
 }
