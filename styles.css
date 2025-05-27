@@ -88,7 +88,7 @@ h4 {
   colour: #FAEBD7;
 }
 
-navigation-bar>.ui.container {
+.navigation-bar.ui.container {
     justify-content: normal;
     align-items: center;
     transition: width .35s ease, padding .35s ease;
