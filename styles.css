@@ -4,15 +4,24 @@ body {
   background-size: fill; /* This will make the background image cover the entire container */
   background-repeat: no-repeat; /* This will prevent the image from repeating */
   background-position: center top; /* This will center the image in the container */
-  background-attachment: scroll;
+  background-attachment: absolute;
   width: 100%;
   height: auto;
-
 }
 
 .image {
   width: 400px
   height: auto}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 100px;
+  column-gap: 20px;
+  row-gap: 40px;
+
+  justify-content: space-between;
+}
+  
 
 h1 {
   font-family: "Lavishly Yours", cursive;
