@@ -35,16 +35,16 @@ h1 {
   font-weight: 1000;
   font-size: 200px;
   font-style: normal;
-  colour: white;
+  colour: #ffffff;
 }
 
 h2 {
   font-family: "Lavishly Yours", cursive;
   text-align: center;
   font-weight: 200;
-  font-size: 100px;
+  font-size: 75px;
   font-style: normal;
-  colour: white;
+  colour: #ffffff;
 }
 
 space {
@@ -59,9 +59,9 @@ h3 {
   font-family: "Lavishly Yours", cursive;
   text-align: center;
   font-weight: 200;
-  font-size: 75px;
+  font-size: 40px;
   font-style: normal;
-  colour: #fff;
+  colour: #ffffff;
 }
 
 h4 {
@@ -70,7 +70,7 @@ h4 {
   font-weight: 200;
   font-size: 30px;
   font-style: normal;
-  colour: #fff;
+  colour: #ffffff;
 }
 
 navigation-bar>.ui.container {
