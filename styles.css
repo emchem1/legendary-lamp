@@ -10,7 +10,7 @@ body {
 }
 
 .image {
-  width: 400px;           /* Adjust box width */
+  width: 1000px;           /* Adjust box width */
   height: auto;           /* Let height adjust or set a max */
   padding: 10px;
   border: 2px solid #ccc;
@@ -47,10 +47,10 @@ body {
 h1 {
   font-family: "Lavishly Yours", cursive;
   text-align: center;
-  font-weight: 1000;
-  font-size: 200px;
+  font-weight: 500;
+  font-size: 150px;
   font-style: normal;
-  colour: #FAEBD7;
+  colour: #ffffff;
 }
 
 h2 {
