@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat; /* This will prevent the image from repeating */
   background-position: center top; /* This will center the image in the container */
   background-attachment: fixed;
-  /* you might need to adjust the width and height to be 100% if you want to have the background taking all the space */
   width: 100%;
   height: auto;
 
@@ -63,3 +62,7 @@ h4 {
     align-items: center;
     transition: width .35s ease, padding .35s ease;
 }
+
+image {
+  width: 400px
+  height: auto}
