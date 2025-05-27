@@ -8,7 +8,7 @@ function getData(form) {
   console.log(Object.fromEntries(formData));
 }
 
-document.getElementById("myForm").addEventListener("submit", function (e) {
+document.getElementById("rsvpform").addEventListener("submit", function (e) {
   e.preventDefault();
   getData(e.target);
 });
