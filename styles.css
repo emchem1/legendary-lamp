@@ -3,7 +3,7 @@ body {
   background-size: fill; /* This will make the background image cover the entire container */
   background-repeat: no-repeat; /* This will prevent the image from repeating */
   background-position: center top; /* This will center the image in the container */
-  background-attachment: fixed;
+  background-attachment: scroll;
   width: 100%;
   height: auto;
 
@@ -34,7 +34,7 @@ h3 {
     color: #fff;
 }
 
-#navigation-bar>.ui.container {
+navigation-bar>.ui.container {
     justify-content: normal;
     align-items: center;
     transition: width .35s ease, padding .35s ease;
