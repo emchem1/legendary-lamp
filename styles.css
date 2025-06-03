@@ -1,6 +1,6 @@
 body {
   background-image: url('./Walking.jpeg'); /* Replace with your image path */
-  background-opacity: 75%;
+  opacity: 75%;
   background-size: fill; /* This will make the background image cover the entire container */
   background-repeat: no-repeat; /* This will prevent the image from repeating */
   background-position: center top; /* This will center the image in the container */
@@ -9,14 +9,6 @@ body {
   height: auto;
 }
 
-body2 {
-  background-color: #ffb6c1
-}
-
-body3 {
-  background-image: url(
-
-    }
 
 .photoboothvid {
     padding-bottom: 50%
@@ -130,10 +122,20 @@ h4 {
   colour: #FAEBD7;
 }
 
-.navigation-bar.ui.container {
-    justify-content: normal;
-    align-items: center;
-    transition: width .35s ease, padding .35s ease;
+.topnav {
+  background-colour: ffffff;
+  opacity: 20%;
+  overflow: hidden;
 }
 
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+  
 
