@@ -11,15 +11,15 @@ body {
 
 
 .photoboothvid {
-    padding-bottom: 50%
-    height: 100%
-    width: 100%
-    position: center
+    padding-bottom: 50%;
+    height: 100%;
+    width: 100%;
+    position: center;
     }
     
 .google-maps {
-    padding-bottom: 50%
-    position: relative
+    padding-bottom: 50%;
+    position: center;
 
     }
 .google-maps iframe {
@@ -31,7 +31,7 @@ body {
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 
@@ -52,11 +52,10 @@ a {
 
 .grid {
   display: grid;
-  grid-template-columns: 100%
+  grid-template-columns: 100%;
   column-gap: 20px;
   row-gap: 40px;
-  position: center
-
+  position: center;
   justify-content: space-between;
 }
 
@@ -84,7 +83,7 @@ h1 {
   font-weight: 500;
   font-size: 150px;
   font-style: normal;
-  colour: #ffffff;
+  colour: #f2f2f2;
 }
 
 h2 {
@@ -93,7 +92,7 @@ h2 {
   font-weight: 200;
   font-size: 75px;
   font-style: normal;
-  colour: #FAEBD7;
+  colour: #f2f2f2;
 }
 
 space {
@@ -110,7 +109,7 @@ h3 {
   font-weight: 200;
   font-size: 40px;
   font-style: normal;
-  colour: #FAEBD7;
+  colour: #f2f2f2;
 }
 
 h4 {
@@ -119,7 +118,7 @@ h4 {
   font-weight: 200;
   font-size: 30px;
   font-style: normal;
-  colour: #FAEBD7;
+  colour: #f2f2f2;
 }
 
 .topnav {
