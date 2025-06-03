@@ -18,6 +18,13 @@ body3 {
 
     }
 
+.photoboothvid {
+    padding-bottom: 50%
+    height: 100%
+    width: 100%
+    position: center
+    }
+    
 .google-maps {
     padding-bottom: 50%
     position: relative
