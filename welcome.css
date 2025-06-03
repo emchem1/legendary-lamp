@@ -1,1 +1,11 @@
+body {
+  background-image: url('./Walking.jpeg'); /* Replace with your image path */
+  background-opacity: 0.8;
+  background-size: fill; /* This will make the background image cover the entire container */
+  background-repeat: no-repeat; /* This will prevent the image from repeating */
+  background-position: center top; /* This will center the image in the container */
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+}
 
