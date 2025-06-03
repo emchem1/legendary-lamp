@@ -13,6 +13,24 @@ body2 {
   background-color: #ffb6c1
 }
 
+body3 {
+  background-image: url(
+
+    }
+
+.google-maps {
+    padding-bottom: 50%
+    position: relative
+
+    }
+.google-maps iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
 a {
   text-decoration: none
 }
