@@ -1,6 +1,6 @@
 body {
   background-image: url('./Walking.jpeg'); /* Replace with your image path */
-  opacity: 50%;
+  background-opacity: 75%;
   background-size: fill; /* This will make the background image cover the entire container */
   background-repeat: no-repeat; /* This will prevent the image from repeating */
   background-position: center top; /* This will center the image in the container */
@@ -83,7 +83,7 @@ h1 {
   font-weight: 500;
   font-size: 150px;
   font-style: normal;
-  colour: #f2f2f2;
+  color: #f2f2f2;
 }
 
 h2 {
@@ -92,7 +92,7 @@ h2 {
   font-weight: 200;
   font-size: 75px;
   font-style: normal;
-  colour: #f2f2f2;
+  color: #f2f2f2;
 }
 
 space {
@@ -109,7 +109,7 @@ h3 {
   font-weight: 200;
   font-size: 40px;
   font-style: normal;
-  colour: #f2f2f2;
+  color: #f2f2f2;
 }
 
 h4 {
@@ -118,8 +118,9 @@ h4 {
   font-weight: 200;
   font-size: 30px;
   font-style: normal;
-  colour: #f2f2f2;
+  color: #f2f2f2;
 }
+
 
 .topnav {
   background-colour: ffffff;
