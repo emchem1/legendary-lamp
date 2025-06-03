@@ -9,6 +9,11 @@ body {
   height: auto;
 }
 
+a {
+  text-decoration: none
+}
+
+
 .image {
   width: 1000px;           /* Adjust box width */
   height: auto;           /* Let height adjust or set a max */
