@@ -1,6 +1,6 @@
 body {
   background-color: #ffb6c1;
-  background-opacity: 0.8;
+  background-opacity: 0.6;
 
 }
 
@@ -18,8 +18,8 @@ body {
 
     }
 .google-maps iframe {
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     left: 0;
     top: 0;
     position: absolute;
