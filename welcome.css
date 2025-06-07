@@ -18,6 +18,5 @@ body {  background-image: url('./Walking.jpeg');
 button[type="submit"] {
   background-color: #a9ccf0;  /* Blue background */
   color: white;   
-  width: 200px;
-  height: 50px;
+
 }
