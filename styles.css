@@ -16,7 +16,6 @@ body {
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center;     /* Centers vertically (optional) */
-    padding-bottom: 10%;
     height: 100%;            /* Set a height if you want vertical centering */
 }
 
