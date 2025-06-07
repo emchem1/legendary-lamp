@@ -1,5 +1,4 @@
-body {
-  background-image: url('./Walking.jpeg'); /* Replace with your image path *
+body {  background-image: url('./Walking.jpeg');
   background-size: fill; /* This will make the background image cover the entire container */
   background-repeat: no-repeat; /* This will prevent the image from repeating */
   background-position: center top; /* This will center the image in the container */
@@ -8,3 +7,15 @@ body {
   height: auto;
 }
 
+.form-center {
+  display: flex;
+  justify-content: center;
+  gap: 20px
+  margin-top: 10px;
+
+}
+
+button[type="submit"] {
+  background-color: #a9ccf0;  /* Blue background */
+  color: white;   
+}
