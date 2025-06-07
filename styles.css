@@ -118,6 +118,34 @@ h4 {
   color: #f2f2f2;
 }
 
+h5 {
+  font-family: "Lavishly Yours", cursive;
+  text-align: center;
+  font-weight: 200;
+  font-size: 75px;
+  font-style: normal;
+  color: #A9A9A9;
+}
+
+
+h6 {
+  font-family: "Lavishly Yours", cursive;
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+  font-style: normal;
+  color: #A9A9A9;
+}
+
+h7 {
+  font-family: "Lavishly Yours", cursive;
+  text-align: center;
+  font-weight: 200;
+  font-size: 30px;
+  font-style: normal;
+  color: #A9A9A9;
+}
+
 
 .topnav {
   background-color: #000000;
