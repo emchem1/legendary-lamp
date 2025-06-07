@@ -13,14 +13,16 @@ body {
     }
     
 .google-maps {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically (optional) */
     padding-bottom: 10%;
-    position: center;
+    height: 100%;            /* Set a height if you want vertical centering */
+}
 
-    }
 .google-maps iframe {
     height: 60%;
     width: 60%;
-    justify-content: center;
     border: 2px solid #ffffff;
 }
 
