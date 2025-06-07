@@ -18,11 +18,11 @@ body {
 
     }
 .google-maps iframe {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     left: 0;
     top: 0;
-    position: absolute;
+    position: center;
 }
 
 a {
