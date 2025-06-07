@@ -13,13 +13,13 @@ body {
     }
     
 .google-maps {
-    padding-bottom: 50%;
+    padding-bottom: 10%;
     position: center;
 
     }
 .google-maps iframe {
-    height: 40%;
-    width: 40%;
+    height: 60%;
+    width: 60%;
     left: 0;
     top: 0;
     position: center;
