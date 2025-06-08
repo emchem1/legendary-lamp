@@ -75,6 +75,12 @@ a {
 
 }
 
+.box {
+  padding: 1000px;
+  margins: 300px;
+
+}
+
 h1 {
   font-family: "Lavishly Yours", cursive;
   text-align: center;
