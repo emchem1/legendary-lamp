@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(response => response.text())
     .then(data => {
       document.getElementById("response-message").innerText = "Thank you for your response!";
-      document.getElementById("response-message-two").innerHTML = <img src="don.jpeg"></img>
       document.getElementById("rsvpform").reset();
     })
     .catch(error => {
