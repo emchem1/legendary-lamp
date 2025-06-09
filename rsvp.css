@@ -9,7 +9,7 @@ body {
 }
 
 button {
-    font: Lavishly yours;
+    font-family: "Lavishly Yours", cursive;
     font-size: 16px;
     font-weight: 500;
     padding: 10px 20px;
