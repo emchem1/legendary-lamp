@@ -9,9 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet"> 
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+   
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="rsvp.css">
-  
+
+  <style>
+    f1 {
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+  </style>
 </head>
 
 
@@ -25,17 +37,17 @@
       <div><label for="fullname"><h7>full name:</h7></label>
       <input type="text" id="fullname" name="fullname"></div>
       <div><label for="rsvp"><h7>rsvp:</h7></label></div>
-      <div><input type="radio" id="rsvp" name="rsvp" value="yes"><h7>yes i would love to be there</h7></div>
-      <div><input type="radio" id="rsvp" name="rsvp" value="no"><h7>apologies, i won't be able to make it</h7></div>
-      <div><input type="radio" id="rsvp" name="rsvp" value="maybe"><h7>maybe, i'll let you know as soon as i can</h7></div>
+      <div><input type="radio" id="rsvp" name="rsvp" value="yes"><f1>yes i would love to be there</f1></div>
+      <div><input type="radio" id="rsvp" name="rsvp" value="no"><f1>apologies, i won't be able to make it</f1></div>
+      <div><input type="radio" id="rsvp" name="rsvp" value="maybe"><f1>maybe, i'll let you know as soon as i can</f1></div>
       <div><label for="food"><h7>any dietary requirements:</h7></label>
       <input type="text" id="food" name="food"></div>
 
       
       
       <div><label for="drink"><h7>alcoholic beverages:</h7></label></div>
-      <div><input type="radio" id="drink" name="drink" value="alcohol"><h7>i will be drinking alcohol:</h7></div>
-      <div><input type="radio" id="drink" name="drink" value="noalcohol"><h7>no i will not be drinking alcohol:</h7></div>
+      <div><input type="radio" id="drink" name="drink" value="alcohol"><f1>i will be drinking alcohol:</f1></div>
+      <div><input type="radio" id="drink" name="drink" value="noalcohol"><f1>no i will not be drinking alcohol:</f1></div>
     
       <div><h5><button type="submit">submit</button></div>
     </fieldset>
