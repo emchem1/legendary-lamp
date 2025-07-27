@@ -1,5 +1,5 @@
 body {  background-image: url('./IMG_4867.jpg');
-  background-size: cover; /* This will make the background image cover the entire container */
+  background-size: contain; 
   background-repeat: no-repeat; /* This will prevent the image from repeating */
   background-position: center top; /* This will center the image in the container */
   background-attachment: fixed;
