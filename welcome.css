@@ -10,7 +10,7 @@ body {  background-image: url('./Walking.jpeg');
 .form-center {
   display: flex;
   justify-content: center;
-  gap: 40px
+  gap: 40px;
   margin-top: 10px;
 
 }
