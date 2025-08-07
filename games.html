@@ -39,15 +39,14 @@ canvas {
     let dx = 2;
     let dy = -2;
 
-    function draw (){
+    function draw() {
       ctx.beginpath;
       ctx.ard(x, y, 20, 0, Math.PI * 2, false);
-      ctx.fillStyle: "#00FF00";
+      ctx.fillStyle = "#00FF00";
       ctx.fill();
       ctx.closepath();
       x += dx;
       y += dy;
-
     }
 
     setInterval(draw,10)
