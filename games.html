@@ -21,6 +21,10 @@ canvas {
   border: #ff0000;
 
 }
+
+button {
+  display: block;
+}
 </style>
 
 </head>
@@ -60,6 +64,12 @@ canvas {
     setInterval(draw,10);
         }
 
+    
+    const runButton = document.getElementById("runButton");
+    runButton.addEventListener("click", () =>
+        startGame()
+        runButton.disabled = true
+    )
 
   </script>
 </body>
