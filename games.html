@@ -18,7 +18,7 @@ canvas {
   background: #eee;
   display: block;
   margin: 0 auto;
-  border: #ff0000;
+  border: 3px solid #000000;
 
 }
 
@@ -30,14 +30,14 @@ button {
 </head>
 
 <body>
-  <canvas id="myCanvas" width="480" height="320"></canvas>
+  <canvas id="myCanvas" width="600" height="450"></canvas>
 
 
   <script>
     const canvas = document.getElementById("myCanvas");
     const ctx = canvas.getContext("2d");
 
-    let x = canvas.width/2;
+    let x = canvas.width / 2;
     let y = canvas.height - 30;
 
     let dx = 2;
@@ -45,7 +45,7 @@ button {
 
     function drawBall() {
       ctx.beginpath;
-      ctx.ard(x, y, 20, 0, Math.PI * 2, false);
+      ctx.arc(x, y, 20, 0, Math.PI * 2, false);
       ctx.fillStyle = "#0095DD";
       ctx.fill();
       ctx.closepath();
