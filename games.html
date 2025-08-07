@@ -46,7 +46,7 @@ button {
     function drawBall() {
       ctx.beginpath;
       ctx.ard(x, y, 20, 0, Math.PI * 2, false);
-      ctx.fillStyle = "#00FF00";
+      ctx.fillStyle = "#0095DD";
       ctx.fill();
       ctx.closepath();
 
@@ -61,15 +61,15 @@ button {
     }
 
     function startgame() {
-    setInterval(draw,10);
-        }
+      setInterval(draw,10);
+    }
 
     
     const runButton = document.getElementById("runButton");
-    runButton.addEventListener("click", () =>
-        startGame()
-        runButton.disabled = true
-    )
+    runButton.addEventListener("click", () => {
+        startGame();
+        runButton.disabled = true;
+    });
 
   </script>
 </body>
