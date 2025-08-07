@@ -13,7 +13,7 @@ button {
     font-size: 16px;
     font-weight: 500;
     padding: 10px 20px;
-    background-color: #007BFF; /* Blue */
+    background-color: #f4a4ff; /* Blue */
     color: white;
     border: none;
     border-radius: 6px;
@@ -22,5 +22,5 @@ button {
   }
 
   button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #8f00b3;
   }
