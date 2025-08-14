@@ -29,12 +29,12 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then(response => response.text())
     .then(data => {
-      document.getElementById("response-message").innerText = "Thank you for your response!";
+      alert ("Thank you for your response!");
       document.getElementById("rsvpform").reset();
     })
     .catch(error => {
       console.error("Error:", error);
-      document.getElementById("response-message").innerText = "There was a problem submitting the form.";
+      alert ("Apologies there was an error, please try again");;
     });
   });
 });
