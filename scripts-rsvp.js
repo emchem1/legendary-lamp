@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then(response => response.text())
     .then(data => {
-      alert ("Thank you for your response!");
+      alert ("Thank you for your response, can't wait to celebrate with you!");
       document.getElementById("rsvpform").reset();
     })
     .catch(error => {
